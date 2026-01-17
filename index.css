@@ -1,0 +1,218 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_header3LayoutGrid
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   height: 100vh;
+   background-color: transparent;
+   background-image: url('../images/4NAO0C1_image_crop_81642.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#header3LayoutGrid
+{
+   box-sizing: border-box;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#header3LayoutGrid > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#header3LayoutGrid > .col-1
+{
+   flex: 0 0 auto;
+}
+#header3LayoutGrid > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-end;
+   align-self: stretch;
+   align-items: flex-end;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#header3LayoutGrid > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#header3LayoutGrid-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   border-radius: 0px;
+   background-image: linear-gradient(to top, #696969 0%, rgba(105,105,105,0.00) 100%);
+}
+#wb_header3Heading
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 50px 50px 25px 50px;
+   text-align: center;
+}
+#header3Heading
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 75px;
+   margin: 0;
+   text-align: center;
+   text-transform: none;
+}
+#wb_header3Text 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0 0 25px 0 ;
+   text-align: center;
+}
+#wb_header3Text
+{
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 16px;
+   line-height: 19px;
+}
+#wb_header3Text p, #wb_header3Text ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_header3Text
+{
+   display: block;
+   margin: 0 0 25px 0 ;
+   box-sizing: border-box;
+   width: 100%;
+}
+#header3Button
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+}
+#wb_header3Button
+{
+   border-radius: 100px;
+   margin: 0 0 50px 0 ;
+   vertical-align: top;
+}
+#header3Button
+{
+   box-sizing: border-box;
+   padding: 0;
+   text-align: center;
+}
+#wb_header3Button .ui-button
+{
+   display: flex;
+   align-items: center;
+   margin: 0;
+   justify-content: center;
+}
+#header3Button
+{
+   color: inherit;
+}
+#wb_header3Button .ui-corner-all, #wb_header3Button .ui-corner-left
+{
+   border-bottom-left-radius: 100px;
+   border-top-left-radius: 100px;
+}
+#wb_header3Button .ui-corner-all, #wb_header3Button .ui-corner-right
+{
+   border-bottom-right-radius: 100px;
+   border-top-right-radius: 100px;
+}
+#wb_header3Button .ui-button
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   color: #FFFFFF;
+}
+#wb_header3Button .ui-state-hover, #wb_header3Button .ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_header3Button .ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#wb_header3Button .ui-state-active, #wb_header3Button .ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
